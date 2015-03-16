@@ -1,4 +1,4 @@
-var foodBudget = 50;
+var foodBudget = 40;
 var data = [
     {
         "name": "Groceries",
@@ -184,7 +184,7 @@ var data = [
         "name": "Bread",
         "amount": "$10.97",
         "location": "Whole Foods",
-        "category": "Food",
+        "category": "Other",
         "date": {
             "month": 2,
             "day": 13,
