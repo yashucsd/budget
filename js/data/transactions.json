@@ -1,0 +1,207 @@
+var foodBudget = 50;
+var data = [
+    {
+        "name": "Groceries",
+        "amount": "$12.61",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 0,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "MIT/Stanford Supplement",
+        "amount": "$16.00",
+        "location": "Slideroom",
+        "category": "Other",
+        "date": {
+            "month": 0,
+            "day": 5,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "Breakfast with Dillon",
+        "amount": "$25.89",
+        "location": "Copenhagen Bakery",
+        "category": "Food",
+        "date": {
+            "month": 0,
+            "day": 5,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "Coffee with Michelle",
+        "amount": "$11.00",
+        "location": "Philz",
+        "category": "Food",
+        "date": {
+            "month": 0,
+            "day": 9,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "ARK Meeting",
+        "amount": "$4.78",
+        "location": "Penelope's Coffee",
+        "category": "Food",
+        "date": {
+            "month": 0,
+            "day": 10,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "Swimsuit + Karan's",
+        "amount": "$58.05",
+        "location": "SwimOutlet.com",
+        "category": "Other",
+        "date": {
+            "month": 0,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "January"
+    },
+    {
+        "name": "Hayward Park to CodeDay",
+        "amount": "$2.50",
+        "location": "CalTrain",
+        "category": "Transit",
+        "date": {
+            "month": 1,
+            "day": 14,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "CodeDay to Hayward Park",
+        "amount": "$2.50",
+        "location": "CalTrain",
+        "category": "Transit",
+        "date": {
+            "month": 1,
+            "day": 15,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "Pies for Simran",
+        "amount": "$20.00",
+        "location": "Farmer's Market [Square]",
+        "category": "Gifts",
+        "date": {
+            "month": 1,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "Hillsdale to TreeHacks",
+        "amount": "$5.25",
+        "location": "CalTrain",
+        "category": "Transit",
+        "date": {
+            "month": 1,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "TreeHacks to Hillsdale",
+        "amount": "$9.18",
+        "location": "Uber",
+        "category": "Transit",
+        "date": {
+            "month": 1,
+            "day": 21,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "Tahoe Treat",
+        "amount": "$5.88",
+        "location": "Nestle Tollhouse",
+        "category": "Food",
+        "date": {
+            "month": 1,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "Juice for Dole ARKtivity",
+        "amount": "$2.59",
+        "location": "Safeway",
+        "category": "Clubs",
+        "date": {
+            "month": 1,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "February"
+    },
+    {
+        "name": "Breakfast with Swimmers",
+        "amount": "$12.25",
+        "location": "Boulanger",
+        "category": "Food",
+        "date": {
+            "month": 2,
+            "day": 6,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Karan's Lunch",
+        "amount": "$6.15",
+        "location": "Baja Fresh",
+        "category": "Gifts",
+        "date": {
+            "month": 2,
+            "day": 8,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Bread",
+        "amount": "$10.97",
+        "location": "Whole Foods",
+        "category": "Food",
+        "date": {
+            "month": 2,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Clipper Card",
+        "amount": "$50.00",
+        "location": "Whole Foods",
+        "category": "Transit",
+        "date": {
+            "month": 2,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "March"
+    }
+]
