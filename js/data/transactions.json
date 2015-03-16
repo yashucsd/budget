@@ -1,4 +1,4 @@
-var foodBudget = 30;
+var foodBudget = 40;
 var data = [
     {
         "name": "Groceries",
