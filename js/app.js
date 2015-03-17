@@ -171,14 +171,14 @@ function printBudgChart(){
     var budgData = [
         {
             value: monthlyTotals.food,
-            color: "#F7464A",
-            highlight: "#FF5A5E",
+            color: "#FF974F",
+            highlight: "#FFA34F",
             label: "Spent"
         },
         {
             value: foodBudget - monthlyTotals.food,
-            color: "#46BFBD",
-            highlight: "#5AD3D1",
+            color: "#644D52",
+            highlight: "#7F6269",
             label: "Remaining"
         }
     ];
@@ -189,32 +189,32 @@ function printCatChart(){
     var catData = [
         {
             value: numeral(totals.food).format('0.00'),
-            color: "#F7464A",
-            highlight: "#FF5A5E",
+            color: "#332532",
+            highlight: "#4C374C",
             label: "Food"
         },
         {
             value: totals.gifts,
-            color: "#46BFBD",
-            highlight: "#5AD3D1",
+            color: "#644D52",
+            highlight: "#7F6269",
             label: "Gifts"
         },
         {
             value: totals.transit,
-            color: "#FDB45C",
-            highlight: "#FFC870",
+            color: "#F77A52",
+            highlight: "#FF9B55",
             label: "Transit"
         },
         {
             value: totals.clubs,
-            color: "#949FB1",
-            highlight: "#A8B3C5",
+            color: "#A49A87",
+            highlight: "#C2B6A0",
             label: "Clubs"
         },
         {
             value: totals.other,
-            color: "#4D5360",
-            highlight: "#616774",
+            color: "#FF974F",
+            highlight: "#FFA34F",
             label: "Other"
         }
     ];
