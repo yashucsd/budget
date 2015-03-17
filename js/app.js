@@ -3,6 +3,8 @@ var monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, other: 0};
 
 angular.module('budget-app', [])
     .controller('Budgeter', ['$scope', function($scope) {
+        onLoad();
+
         $scope.data = data;
 
         $scope.transName = '';
@@ -12,6 +14,66 @@ angular.module('budget-app', [])
         $scope.transDate = new TransDate();
         $scope.searchText = getMonthName();
         $scope.hiddenMessage = "show all transactions..."
+        $scope.catOptions = [
+            { 
+                label: 'food',
+                tot: parsePrice(totals.food),
+                monTot: parsePrice(monthlyTotals.food),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            },
+            { 
+                label: 'gifts',
+                tot: parsePrice(totals.gifts),
+                monTot: parsePrice(monthlyTotals.gifts),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            },
+            { 
+                label: 'clubs',
+                tot: parsePrice(totals.clubs),
+                monTot: parsePrice(monthlyTotals.clubs),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            },
+            { 
+                label: 'transit',
+                tot: parsePrice(totals.transit),
+                monTot: parsePrice(monthlyTotals.transit),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            },
+            { 
+                label: 'other',
+                tot: parsePrice(totals.other),
+                monTot: parsePrice(monthlyTotals.other),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            }
+        ];
+        $scope.timeOptions = [
+            {
+                label:"month",
+                tag: "monTot"
+            },
+            {
+                label:"all time",
+                tag: "tot"
+            }
+        ];
+
+        $scope.cat = $scope.catOptions[0];
+        $scope.time = $scope.timeOptions[0];
 
         $scope.showOlder = function() {
             if($scope.searchText === getMonthName()){

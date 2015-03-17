@@ -94,11 +94,28 @@
 								<h2 class="alt" style="font-size: 4em">Overview</h2>
 								<table>
 									<tr>
-										<td width="25%"><h2 id="foodTot" style="font-weight: 400;"></h2></td>
+										<td width="25%"><h2 style="font-weight: 400;">{{cat.getVal(time.tag)}}</h2></td>
 										<td width="25%"><h2 id="foodBudg" style="font-weight: 400;"></h2></td>
 									</tr>
 									<tr>
-										<td><p>spent on food this month</p></td>
+										<style type="text/css">
+											tr select {
+												background: none;
+												border: none;
+												width: auto;
+												padding: 0;
+												cursor: pointer;
+												font-weight: 400;
+												color: #fff;
+											}
+										</style>
+										<td>
+											<p>spent on 
+												<select ng-model="cat" ng-options="opt as opt.label for opt in catOptions"></select>
+												 this 
+											 	<select ng-model="time" ng-options="opt as opt.label for opt in timeOptions"></select>
+									 		</p>
+								 		</td>
 										<td><p>remaining in this month's food budget</p></td>
 									</tr>
 								</table>
