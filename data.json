@@ -1,5 +1,4 @@
-var foodBudget = 40;
-var data = [
+data = [
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -200,6 +199,18 @@ var data = [
         "date": {
             "month": 2,
             "day": 13,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Lunchoffee with Gareth",
+        "amount": "$9.00",
+        "location": "Philz",
+        "category": "Food",
+        "date": {
+            "month": 2,
+            "day": 20,
             "year": 2015
         },
         "monthName": "March"
