@@ -109,7 +109,7 @@ function parsePrice(argument) {
     return numeral(argument).format('$0.00');
 }
 function download() {
-    var url = 'data:text/JSON,' + 'data = ' + encodeURIComponent(JSON.stringify(data, null, 4));
+    var url = 'data:text/JSON,' + 'var foodBudget = 40; data = ' + encodeURIComponent(JSON.stringify(data, null, 4));
     window.open(url, '_blank')
 }
 function onLoad(){
