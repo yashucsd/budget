@@ -443,6 +443,10 @@
 /* Icons                                                                         */
 /*********************************************************************************/
 
+	@font-face {
+	    font-family: 'weather';
+	    src: url(fonts/artill_clean_icons.otf);
+	}
 	.icon {
 		text-decoration: none;
 	}
