@@ -1,5 +1,4 @@
-foodBudget = 40;
-data = [
+var foodBudget = 40; data = [
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -215,5 +214,65 @@ data = [
             "year": 2015
         },
         "monthName": "March"
+    },
+    {
+        "name": "Book for Jackie",
+        "amount": "$18.52",
+        "location": "Barnes & Noble",
+        "category": "Gifts",
+        "date": {
+            "month": 2,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Drinks for Airport",
+        "amount": "$18.05",
+        "location": "ABC Store Waikoloa",
+        "category": "Other",
+        "date": {
+            "month": 3,
+            "day": 2,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Hamlet for School",
+        "amount": "$8.69",
+        "location": "Barnes & Noble",
+        "category": "Other",
+        "date": {
+            "month": 3,
+            "day": 8,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee with Gareth",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 10,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Lunch with Case",
+        "amount": "$8.50",
+        "location": "Pizza My Heart",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 10,
+            "year": 2015
+        },
+        "monthName": "April"
     }
 ]
