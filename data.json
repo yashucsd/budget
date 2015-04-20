@@ -274,5 +274,41 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "April"
+    },
+    {
+        "name": "Breakfast",
+        "amount": "$4.02",
+        "location": "La Boulange",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 17,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "ARK 4/20 Event",
+        "amount": "$37.26",
+        "location": "Starbucks & Safeway",
+        "category": "Clubs",
+        "date": {
+            "month": 3,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$5.50",
+        "location": "La Boulange",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "April"
     }
 ]
