@@ -158,7 +158,7 @@ var foodBudget = 40; data = [
     {
         "name": "Breakfast with Swimmers",
         "amount": "$12.25",
-        "location": "Boulanger",
+        "location": "La Boulange",
         "category": "Food",
         "date": {
             "month": 2,
