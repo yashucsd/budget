@@ -310,5 +310,29 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$2.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Lunch",
+        "amount": "$4.65",
+        "location": "Café Milano",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "April"
     }
 ]
