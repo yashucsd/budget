@@ -334,5 +334,41 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "April"
+    },
+    {
+        "name": "Ice Cream w Gareth",
+        "amount": "$6.75",
+        "location": "Scoop Microcreamery",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 29,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$2.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 29,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Dinner",
+        "amount": "$7.60",
+        "location": "Hummus",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "May"
     }
 ]
