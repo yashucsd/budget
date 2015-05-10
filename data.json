@@ -370,5 +370,53 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "May"
+    },
+    {
+        "name": "Mail",
+        "amount": "$12.00",
+        "location": "USPS Burlingame",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Lunch with Kyle",
+        "amount": "$11.39",
+        "location": "Urban Bistro",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 5,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Nacho Party Material",
+        "amount": "$7.55",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 7,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Lunch with You You",
+        "amount": "$8.49",
+        "location": "Panera",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 8,
+            "year": 2015
+        },
+        "monthName": "May"
     }
 ]
