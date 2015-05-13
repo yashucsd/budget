@@ -360,7 +360,7 @@ var foodBudget = 40; data = [
         "monthName": "April"
     },
     {
-        "name": "Dinner",
+        "name": "Dinner with Danny & Ariel",
         "amount": "$7.60",
         "location": "Hummus",
         "category": "Food",
@@ -396,7 +396,7 @@ var foodBudget = 40; data = [
         "monthName": "May"
     },
     {
-        "name": "Nacho Party Material",
+        "name": "Nacho Party Material (Physics)",
         "amount": "$7.55",
         "location": "Safeway",
         "category": "Other",
