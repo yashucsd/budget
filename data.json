@@ -468,6 +468,18 @@ var foodBudget = 40; data = [
         "monthName": "May"
     },
     {
+        "name": "Passport",
+        "amount": "$83.00",
+        "location": "Swiss Consulate",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 21,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
         "name": "Coffee with Alex",
         "amount": "$1.85",
         "location": "Hannah Coffee",
