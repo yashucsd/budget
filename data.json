@@ -418,5 +418,113 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "May"
+    },
+    {
+        "name": "Coffee w Michelle & Chris",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Electrical Tape",
+        "amount": "$0.86",
+        "location": "Home Depot",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 18,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Tic w Gareth",
+        "amount": "$6.45",
+        "location": "Starbucks",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Ice Cream for Economics",
+        "amount": "$2.98",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Coffee with Alex",
+        "amount": "$1.85",
+        "location": "Hannah Coffee",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Coffee with Sabrina",
+        "amount": "$1.95",
+        "location": "Caffe Frascati",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Boat Shoes",
+        "amount": "$29.44",
+        "location": "Old Navy",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "3D Model for Calculus",
+        "amount": "$11.60",
+        "location": "3D Hubs",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Shirts",
+        "amount": "$32.71",
+        "location": "H & M",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 25,
+            "year": 2015
+        },
+        "monthName": "May"
     }
 ]

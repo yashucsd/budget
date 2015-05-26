@@ -1,5 +1,5 @@
-var totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, other: 0};
-var monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, other: 0};
+var totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
+var monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
 
 angular.module('budget-app', [])
     .controller('Budgeter', ['$scope', function($scope) {
@@ -46,6 +46,15 @@ angular.module('budget-app', [])
                 label: 'transit',
                 tot: parsePrice(totals.transit),
                 monTot: parsePrice(monthlyTotals.transit),
+                getVal: function(time) {
+                    if(time === "monTot") return this.monTot;
+                    else return this.tot;
+                }
+            },
+            { 
+                label: 'euro',
+                tot: parsePrice(totals.euro),
+                monTot: parsePrice(monthlyTotals.euro),
                 getVal: function(time) {
                     if(time === "monTot") return this.monTot;
                     else return this.tot;
@@ -121,7 +130,7 @@ function onLoad(){
     printCatChart();
 }
 function calcTotals(){
-    totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, other: 0};
+    totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
     for(i in data){
         var strAmt = data[i].amount;
         strAmt = strAmt.replace("$", "");
@@ -134,13 +143,15 @@ function calcTotals(){
             totals.clubs += parseFloat(strAmt);
         } else if (data[i].category === "Transit") {
             totals.transit += parseFloat(strAmt);
+        } else if (data[i].category === "Euro") {
+            totals.euro += parseFloat(strAmt);   
         } else if (data[i].category === "Other") {
             totals.other += parseFloat(strAmt);
         }
     }
 }
 function calcMonthlyTotals(){
-    monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, other: 0};
+    monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
     for(i in data){
         if(data[i].date.month === ((new Date).getMonth()) && 
             data[i].date.year === ((new Date).getFullYear())){
@@ -159,6 +170,9 @@ function calcMonthlyTotals(){
             } else if (data[i].category === "Transit") {
 
                 monthlyTotals.transit += parseFloat(strAmt);
+            } else if (data[i].category === "Euro") {
+
+                monthlyTotals.euro += parseFloat(strAmt);
             } else if (data[i].category === "Other") {
 
                 monthlyTotals.other += parseFloat(strAmt);
@@ -204,6 +218,12 @@ function printCatChart(){
             color: "#F77A52",
             highlight: "#FF9B55",
             label: "Transit"
+        },
+        {
+            value: totals.euro,
+            color: "#F79A52",
+            highlight: "#FF3B55",
+            label: "Euro"
         },
         {
             value: totals.clubs,
