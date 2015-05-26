@@ -504,6 +504,18 @@ var foodBudget = 40; data = [
         "monthName": "May"
     },
     {
+        "name": "Sunglasses",
+        "amount": "$25.00",
+        "location": "Optical Illusions",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
         "name": "3D Model for Calculus",
         "amount": "$11.60",
         "location": "3D Hubs",
@@ -523,6 +535,30 @@ var foodBudget = 40; data = [
         "date": {
             "month": 4,
             "day": 25,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Underwear + Mama Pants",
+        "amount": "$22.36",
+        "location": "Target",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 25,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "SFO ➡︎ ZRH",
+        "amount": "$2000.00",
+        "location": "United Airlines",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 29,
             "year": 2015
         },
         "monthName": "May"
