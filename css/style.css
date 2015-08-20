@@ -324,9 +324,6 @@
             padding-left: .5em;
             color: rgb(136, 136, 136);
         }
-        select:focus{
-        	outline: none;
-        }
 
 	/* Table */
 	
@@ -443,10 +440,6 @@
 /* Icons                                                                         */
 /*********************************************************************************/
 
-	@font-face {
-	    font-family: 'weather';
-	    src: url(fonts/artill_clean_icons.otf);
-	}
 	.icon {
 		text-decoration: none;
 	}
@@ -613,7 +606,7 @@
 
 							#nav ul li a.active span:before
 							{
-								color: #9c764a;
+								color: #e27689;
 							}
 
 /*********************************************************************************/

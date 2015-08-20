@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-var foodBudget = 40; data = [
-=======
 var budget = 40;
 data = [
->>>>>>> master
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -569,18 +565,6 @@ data = [
         "monthName": "May"
     },
     {
-<<<<<<< HEAD
-        "name": "SFO ➡︎ ZRH",
-        "amount": "$2046.00",
-        "location": "United Airlines",
-        "category": "Euro",
-        "date": {
-            "month": 4,
-            "day": 29,
-            "year": 2015
-        },
-        "monthName": "May"
-=======
         "name": "Washington Mug",
         "amount": "$10.00",
         "location": "Starbucks",
@@ -687,6 +671,5 @@ data = [
             "year": 2015
         },
         "monthName": "August"
->>>>>>> master
     }
 ]
