@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 var totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
 var monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
+=======
+var totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, travel: 0, other: 0};
+var monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, travel: 0, other: 0};
+>>>>>>> master
 
 angular.module('budget-app', [])
     .controller('Budgeter', ['$scope', function($scope) {
@@ -118,23 +123,32 @@ function parsePrice(argument) {
     return numeral(argument).format('$0.00');
 }
 function download() {
+<<<<<<< HEAD
     var url = 'data:text/JSON,' + 'var foodBudget = 40; data = ' + encodeURIComponent(JSON.stringify(data, null, 4));
+=======
+    var url = 'data:text/JSON,' + 'var budget = 40; data = ' + encodeURIComponent(JSON.stringify(data, null, 4));
+>>>>>>> master
     window.open(url, '_blank')
 }
 function onLoad(){
     calcTotals();
     calcMonthlyTotals();
-    $("#foodTot") .text(parsePrice(monthlyTotals.food));
-    $("#foodBudg").text(parsePrice(foodBudget - monthlyTotals.food));
+    $("#tot") .text(parsePrice(monthlyTotals.food + monthlyTotals.travel));
+    $("#budget").text(parsePrice(budget - (monthlyTotals.food + monthlyTotals.travel)));
     printBudgChart();
     printCatChart();
 }
 function calcTotals(){
+<<<<<<< HEAD
     totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
+=======
+    totals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, travel: 0, other: 0};
+>>>>>>> master
     for(i in data){
         var strAmt = data[i].amount;
         strAmt = strAmt.replace("$", "");
         totals.all += parseFloat(strAmt);
+<<<<<<< HEAD
         if (data[i].category === "Food") {
             totals.food += parseFloat(strAmt);
         } else if (data[i].category === "Gifts") {
@@ -152,12 +166,25 @@ function calcTotals(){
 }
 function calcMonthlyTotals(){
     monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, euro: 0, other: 0};
+=======
+        if (data[i].category === "Food")        totals.food += parseFloat(strAmt);
+        else if (data[i].category === "Gifts")  totals.gifts += parseFloat(strAmt);
+        else if (data[i].category === "Clubs")  totals.clubs += parseFloat(strAmt);
+        else if (data[i].category === "Transit")totals.transit += parseFloat(strAmt);
+        else if (data[i].category === "Travel") totals.travel += parseFloat(strAmt);
+        else if (data[i].category === "Other")  totals.other += parseFloat(strAmt);
+    }
+}
+function calcMonthlyTotals(){
+    monthlyTotals = {all: 0, food: 0, gifts: 0, clubs: 0, transit: 0, travel: 0, other: 0};
+>>>>>>> master
     for(i in data){
         if(data[i].date.month === ((new Date).getMonth()) && 
             data[i].date.year === ((new Date).getFullYear())){
             var strAmt = data[i].amount;
             strAmt = strAmt.replace("$", "");
             monthlyTotals.all += parseFloat(strAmt);
+<<<<<<< HEAD
             if (data[i].category === "Food") {
 
                 monthlyTotals.food += parseFloat(strAmt);
@@ -177,6 +204,14 @@ function calcMonthlyTotals(){
 
                 monthlyTotals.other += parseFloat(strAmt);
             }
+=======
+            if (data[i].category === "Food")        monthlyTotals.food += parseFloat(strAmt);
+            else if (data[i].category === "Gifts")  monthlyTotals.gifts += parseFloat(strAmt);
+            else if (data[i].category === "Clubs")  monthlyTotals.clubs += parseFloat(strAmt);
+            else if (data[i].category === "Transit")monthlyTotals.transit += parseFloat(strAmt);
+            else if (data[i].category === "Travel") monthlyTotals.travel += parseFloat(strAmt);
+            else if (data[i].category === "Other")  monthlyTotals.other += parseFloat(strAmt);
+>>>>>>> master
         }
     }
 }
@@ -184,6 +219,7 @@ function printBudgChart(){
     var ctx = $("#budgChart").get(0).getContext("2d");
     var budgData = [
         {
+<<<<<<< HEAD
             value: monthlyTotals.food,
             color: "#FF974F",
             highlight: "#FFA34F",
@@ -193,6 +229,17 @@ function printBudgChart(){
             value: foodBudget - monthlyTotals.food,
             color: "#644D52",
             highlight: "#7F6269",
+=======
+            value: (monthlyTotals.food + monthlyTotals.travel),
+            color: "#F7464A",
+            highlight: "#FF5A5E",
+            label: "Spent"
+        },
+        {
+            value: budget - (monthlyTotals.food + monthlyTotals.travel),
+            color: "#46BFBD",
+            highlight: "#5AD3D1",
+>>>>>>> master
             label: "Remaining"
         }
     ];
@@ -230,6 +277,12 @@ function printCatChart(){
             color: "#A49A87",
             highlight: "#C2B6A0",
             label: "Clubs"
+        },
+        {
+            value: totals.travel,
+            color: "#46BFBD",
+            highlight: "#5AD3D1",
+            label: "Travel"
         },
         {
             value: totals.other,

@@ -94,6 +94,7 @@
 								<h2 class="alt" style="font-size: 4em">Overview</h2>
 								<table>
 									<tr>
+<<<<<<< HEAD
 										<td width="25%"><h2 style="font-weight: 400;">{{cat.getVal(time.tag)}}</h2></td>
 										<td width="25%"><h2 id="foodBudg" style="font-weight: 400;"></h2></td>
 									</tr>
@@ -117,6 +118,14 @@
 									 		</p>
 								 		</td>
 										<td><p>remaining in this month's food budget</p></td>
+=======
+										<td width="25%"><h2 id="tot" style="font-weight: 400;"></h2></td>
+										<td width="25%"><h2 id="budget" style="font-weight: 400;"></h2></td>
+									</tr>
+									<tr>
+										<td><p>personally spent this month</p></td>
+										<td><p>remaining in this month's budget</p></td>
+>>>>>>> master
 									</tr>
 								</table>
 							</header>
@@ -155,6 +164,7 @@
 										<td>{{trans.amount}}</td>
 										<td>{{trans.name}}</td>
 										<td>{{trans.location}}</td>
+										<td>{{trans.category}}</td>
 									</tr>
 								</tbody>
 							</table>
@@ -165,9 +175,13 @@
 								<select ng-model="transCat">
 								    <option>Food</option>
 								    <option>Gifts</option>
-								    <option selected="">Clubs</option>
+								    <option>Clubs</option>
 								    <option>Transit</option>
+<<<<<<< HEAD
 								    <option>Euro</option>
+=======
+								    <option>Travel</option>
+>>>>>>> master
 								    <option>Other</option>
 								</select>
 								<button type="submit">Add</button>
@@ -198,7 +212,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<p>The above are two fancy donut graphs that represent different things. The left donut represents my monthly food budget; the red is spent, the green remains. This aligns with the values in the overview. The right donut represents all my transactions and appropriates them by category. Hover over them to learn more.</p>
+							<p>The above are two fancy donut graphs that represent different things. The left donut represents my monthly budget; the red is spent, the green remains. This aligns with the values in the overview. The right donut represents all my transactions and appropriates them by category. Hover over them to learn more.</p>
 
 						</div>
 					</section>

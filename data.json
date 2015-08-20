@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 var foodBudget = 40; data = [
+=======
+var budget = 40;
+data = [
+>>>>>>> master
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -564,6 +569,7 @@ var foodBudget = 40; data = [
         "monthName": "May"
     },
     {
+<<<<<<< HEAD
         "name": "SFO ➡︎ ZRH",
         "amount": "$2046.00",
         "location": "United Airlines",
@@ -574,5 +580,113 @@ var foodBudget = 40; data = [
             "year": 2015
         },
         "monthName": "May"
+=======
+        "name": "Washington Mug",
+        "amount": "$10.00",
+        "location": "Starbucks",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 11,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Dinner",
+        "amount": "$11.58",
+        "location": "Starbucks",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 11,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Milk and Bread",
+        "amount": "$5.98",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 12,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Ice Cream for Denny Pa",
+        "amount": "$9.30",
+        "location": "Baskin Robbins",
+        "category": "Gifts",
+        "date": {
+            "month": 7,
+            "day": 12,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Kyle",
+        "amount": "$4.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Dinner with Family",
+        "amount": "$10.85",
+        "location": "Pieology",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 15,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Gas",
+        "amount": "$32.02",
+        "location": "Costco",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 18,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Lizzie",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Paper Towels",
+        "amount": "$11.42",
+        "location": "Costco",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "August"
+>>>>>>> master
     }
 ]
