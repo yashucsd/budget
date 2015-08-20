@@ -1,5 +1,5 @@
-var foodBudget = 40;
-var data = [
+var budget = 40;
+data = [
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -159,7 +159,7 @@ var data = [
     {
         "name": "Breakfast with Swimmers",
         "amount": "$12.25",
-        "location": "Boulanger",
+        "location": "La Boulange",
         "category": "Food",
         "date": {
             "month": 2,
@@ -203,5 +203,473 @@ var data = [
             "year": 2015
         },
         "monthName": "March"
+    },
+    {
+        "name": "Lunchoffee with Gareth",
+        "amount": "$9.00",
+        "location": "Philz",
+        "category": "Food",
+        "date": {
+            "month": 2,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Book for Jackie",
+        "amount": "$18.52",
+        "location": "Barnes & Noble",
+        "category": "Gifts",
+        "date": {
+            "month": 2,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "March"
+    },
+    {
+        "name": "Drinks for Airport",
+        "amount": "$18.05",
+        "location": "ABC Store Waikoloa",
+        "category": "Other",
+        "date": {
+            "month": 3,
+            "day": 2,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Hamlet for School",
+        "amount": "$8.69",
+        "location": "Barnes & Noble",
+        "category": "Other",
+        "date": {
+            "month": 3,
+            "day": 8,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee with Gareth",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 10,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Lunch with Case",
+        "amount": "$8.50",
+        "location": "Pizza My Heart",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 10,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Breakfast",
+        "amount": "$4.02",
+        "location": "La Boulange",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 17,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "ARK 4/20 Event",
+        "amount": "$37.26",
+        "location": "Starbucks & Safeway",
+        "category": "Clubs",
+        "date": {
+            "month": 3,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$5.50",
+        "location": "La Boulange",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$2.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Lunch",
+        "amount": "$4.65",
+        "location": "Café Milano",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Ice Cream w Gareth",
+        "amount": "$6.75",
+        "location": "Scoop Microcreamery",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 29,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$2.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 3,
+            "day": 29,
+            "year": 2015
+        },
+        "monthName": "April"
+    },
+    {
+        "name": "Dinner with Danny & Ariel",
+        "amount": "$7.60",
+        "location": "Hummus",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Mail",
+        "amount": "$12.00",
+        "location": "USPS Burlingame",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Lunch with Kyle",
+        "amount": "$11.39",
+        "location": "Urban Bistro",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 5,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Nacho Party Material (Physics)",
+        "amount": "$7.55",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 7,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Lunch with You You",
+        "amount": "$8.49",
+        "location": "Panera",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 8,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Coffee w Michelle & Chris",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Electrical Tape",
+        "amount": "$0.86",
+        "location": "Home Depot",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 18,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Tic w Gareth",
+        "amount": "$6.45",
+        "location": "Starbucks",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Ice Cream for Economics",
+        "amount": "$2.98",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 20,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Passport",
+        "amount": "$83.00",
+        "location": "Swiss Consulate",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 21,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Coffee with Alex",
+        "amount": "$1.85",
+        "location": "Hannah Coffee",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Coffee with Sabrina",
+        "amount": "$1.95",
+        "location": "Caffe Frascati",
+        "category": "Food",
+        "date": {
+            "month": 4,
+            "day": 22,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Boat Shoes",
+        "amount": "$29.44",
+        "location": "Old Navy",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Sunglasses",
+        "amount": "$25.00",
+        "location": "Optical Illusions",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "3D Model for Calculus",
+        "amount": "$11.60",
+        "location": "3D Hubs",
+        "category": "Other",
+        "date": {
+            "month": 4,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Shirts",
+        "amount": "$32.71",
+        "location": "H & M",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 25,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Underwear + Mama Pants",
+        "amount": "$22.36",
+        "location": "Target",
+        "category": "Euro",
+        "date": {
+            "month": 4,
+            "day": 25,
+            "year": 2015
+        },
+        "monthName": "May"
+    },
+    {
+        "name": "Washington Mug",
+        "amount": "$10.00",
+        "location": "Starbucks",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 11,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Dinner",
+        "amount": "$11.58",
+        "location": "Starbucks",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 11,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Milk and Bread",
+        "amount": "$5.98",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 12,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Ice Cream for Denny Pa",
+        "amount": "$9.30",
+        "location": "Baskin Robbins",
+        "category": "Gifts",
+        "date": {
+            "month": 7,
+            "day": 12,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Kyle",
+        "amount": "$4.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 13,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Dinner with Family",
+        "amount": "$10.85",
+        "location": "Pieology",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 15,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Gas",
+        "amount": "$32.02",
+        "location": "Costco",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 18,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Lizzie",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Paper Towels",
+        "amount": "$11.42",
+        "location": "Costco",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "August"
     }
 ]
