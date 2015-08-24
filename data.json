@@ -1,5 +1,4 @@
-var budget = 40;
-data = [
+var budget = 40; data = [
     {
         "name": "Groceries",
         "amount": "$12.61",
@@ -668,6 +667,42 @@ data = [
         "date": {
             "month": 7,
             "day": 19,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Tara",
+        "amount": "$3.00",
+        "location": "Penelope's",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "SF Mug",
+        "amount": "$10.50",
+        "location": "Starbucks",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Papa",
+        "amount": "$8.00",
+        "location": "Philz Coffee",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 24,
             "year": 2015
         },
         "monthName": "August"
