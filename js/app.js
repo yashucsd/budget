@@ -99,7 +99,7 @@ function printBudgChart(){
             label: "Spent"
         },
         {
-            value: budget - (monthlyTotals.food + monthlyTotals.travel),
+            value: (budget - (monthlyTotals.food + monthlyTotals.travel)),
             color: "#46BFBD",
             highlight: "#5AD3D1",
             label: "Remaining"
@@ -111,7 +111,7 @@ function printCatChart(){
     var ctx = $("#catChart").get(0).getContext("2d");
     var catData = [
         {
-            value: numeral(totals.food).format('0.00'),
+            value: totals.food,
             color: "#F7464A",
             highlight: "#FF5A5E",
             label: "Food"

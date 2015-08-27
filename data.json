@@ -678,7 +678,7 @@ var budget = 40; data = [
         "category": "Food",
         "date": {
             "month": 7,
-            "day": 24,
+            "day": 22,
             "year": 2015
         },
         "monthName": "August"
@@ -690,7 +690,7 @@ var budget = 40; data = [
         "category": "Travel",
         "date": {
             "month": 7,
-            "day": 24,
+            "day": 23,
             "year": 2015
         },
         "monthName": "August"
@@ -702,7 +702,67 @@ var budget = 40; data = [
         "category": "Other",
         "date": {
             "month": 7,
+            "day": 23,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Danny",
+        "amount": "$3.00",
+        "location": "Philz Coffee",
+        "category": "Food",
+        "date": {
+            "month": 7,
             "day": 24,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Lunch with Danny",
+        "amount": "$5.00",
+        "location": "Pizza My Heart",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Breakfast",
+        "amount": "$5.25",
+        "location": "Coupa Cafe",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 26,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Train PA ➡︎ SM",
+        "amount": "$2.50",
+        "location": "Caltrain",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 26,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Lunch with Vivian",
+        "amount": "$14.97",
+        "location": "Pancho Villa",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 26,
             "year": 2015
         },
         "monthName": "August"
