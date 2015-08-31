@@ -766,5 +766,113 @@ var budget = 40; data = [
             "year": 2015
         },
         "monthName": "August"
+    },
+    {
+        "name": "Groceries",
+        "amount": "$16.83",
+        "location": "Trader Joe's",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 27,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Backpack",
+        "amount": "$45.36",
+        "location": "Amazon",
+        "category": "Travel",
+        "date": {
+            "month": 7,
+            "day": 27,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Papa",
+        "amount": "$5.00",
+        "location": "Starbucks",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 28,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Card Reload",
+        "amount": "$5.00",
+        "location": "Starbucks",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 28,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Breakfast with Papa",
+        "amount": "$9.40",
+        "location": "Andersen Bakery",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 28,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Lunch with Papa",
+        "amount": "$7.78",
+        "location": "Chipotle",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 28,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Groceries",
+        "amount": "$5.99",
+        "location": "Costco",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 29,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Coffee with Papa",
+        "amount": "$3.75",
+        "location": "HMB Coffee Co.",
+        "category": "Other",
+        "date": {
+            "month": 7,
+            "day": 30,
+            "year": 2015
+        },
+        "monthName": "August"
+    },
+    {
+        "name": "Popcorn",
+        "amount": "$6.95",
+        "location": "Century Theaters",
+        "category": "Food",
+        "date": {
+            "month": 7,
+            "day": 30,
+            "year": 2015
+        },
+        "monthName": "August"
     }
 ]
