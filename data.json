@@ -874,5 +874,41 @@ var budget = 40; data = [
             "year": 2015
         },
         "monthName": "August"
+    },
+    {
+        "name": "Ice Cream",
+        "amount": "$1.00",
+        "location": "IKEA",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 1,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Bed sheet (difference)",
+        "amount": "$1.12",
+        "location": "IKEA",
+        "category": "Other",
+        "date": {
+            "month": 8,
+            "day": 1,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Stamps",
+        "amount": "$3.50",
+        "location": "San Francisco",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 1,
+            "year": 2015
+        },
+        "monthName": "September"
     }
 ]
