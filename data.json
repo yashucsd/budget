@@ -910,5 +910,125 @@ var budget = 40; data = [
             "year": 2015
         },
         "monthName": "September"
+    },
+    {
+        "name": "Lunch with You You",
+        "amount": "$7.87",
+        "location": "Habit Grill",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 2,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Card Reload",
+        "amount": "$10.00",
+        "location": "Starbucks",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Papa's Gift",
+        "amount": "$31.05",
+        "location": "Amazon",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Notebook",
+        "amount": "$15.12",
+        "location": "Amazon",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$3.00",
+        "location": "Reveille Coffee",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Tea",
+        "amount": "$6.33",
+        "location": "Samovar Tea",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Ice Cream",
+        "amount": "$4.00",
+        "location": "Humphry Slocombe",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Coffee",
+        "amount": "$4.25",
+        "location": "Foundation Café",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Candles",
+        "amount": "$2.81",
+        "location": "Walgreens",
+        "category": "Other",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Watch",
+        "amount": "$109.90",
+        "location": "Amazon",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 4,
+            "year": 2015
+        },
+        "monthName": "September"
     }
 ]
