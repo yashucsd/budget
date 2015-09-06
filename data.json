@@ -1030,5 +1030,17 @@ var budget = 40; data = [
             "year": 2015
         },
         "monthName": "September"
+    },
+    {
+        "name": "Backpack + Gift",
+        "amount": "$117.17",
+        "location": "Amazon",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 6,
+            "year": 2015
+        },
+        "monthName": "September"
     }
 ]
