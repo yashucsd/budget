@@ -1283,18 +1283,6 @@ var budget = 40; data = [
         "monthName": "September"
     },
     {
-        "name": "Pens for Jackie",
-        "amount": "$13.37",
-        "location": "Amazon.com",
-        "category": "Travel",
-        "date": {
-            "month": 9,
-            "day": 1,
-            "year": 2015
-        },
-        "monthName": "October"
-    },
-    {
         "name": "Milk",
         "amount": "$8.99",
         "location": "Safeway",
