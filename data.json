@@ -1186,5 +1186,136 @@ var budget = 40; data = [
             "year": 2015
         },
         "monthName": "September"
+    },
+    {
+        "name": "Groceries",
+        "amount": "$25.69",
+        "location": "Trader Joe's",
+        "category": "Other",
+        "date": {
+            "month": 8,
+            "day": 19,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Notebook",
+        "amount": "$8.94",
+        "location": "Amazon.com",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 24,
+            "year": 2015
+        },
+        "monthName": "September"
+    },{
+        "name": "Screen Protector",
+        "amount": "$8.79",
+        "location": "Amazon.com",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 25,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Groceries",
+        "amount": "$19.73",
+        "location": "Trader Joe's",
+        "category": "Other",
+        "date": {
+            "month": 8,
+            "day": 26,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "iPhone Case",
+        "amount": "$49.16",
+        "location": "Apple Store",
+        "category": "Travel",
+        "date": {
+            "month": 8,
+            "day": 27,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Tea",
+        "amount": "$11.22",
+        "location": "Leland Tea Company",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 28,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Cookie",
+        "amount": "$1.75",
+        "location": "Sandwich Monkey",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 30,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Hot Chocolate",
+        "amount": "$2.83",
+        "location": "Penelope's",
+        "category": "Food",
+        "date": {
+            "month": 8,
+            "day": 30,
+            "year": 2015
+        },
+        "monthName": "September"
+    },
+    {
+        "name": "Pens for Jackie",
+        "amount": "$13.37",
+        "location": "Amazon.com",
+        "category": "Travel",
+        "date": {
+            "month": 9,
+            "day": 1,
+            "year": 2015
+        },
+        "monthName": "October"
+    },
+    {
+        "name": "Milk",
+        "amount": "$8.99",
+        "location": "Safeway",
+        "category": "Other",
+        "date": {
+            "month": 9,
+            "day": 2,
+            "year": 2015
+        },
+        "monthName": "October"
+    },
+    {
+        "name": "Ice Cream",
+        "amount": "$2.99",
+        "location": "7-11",
+        "category": "Food",
+        "date": {
+            "month": 9,
+            "day": 3,
+            "year": 2015
+        },
+        "monthName": "October"
     }
 ]
